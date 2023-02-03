@@ -3,12 +3,46 @@
 /*
 Author: Walton
 Date: 2/3/2023
-Description:
+Description: CSS file for e-portfolio site
 5 different selectors with CSS rules 
 */
 
 body {
-    background-color: aquamarine;
-    color: beige;
+    background-color: rgb(22, 181, 212);
+    color: #fff;
     font-style: italic;
+    font-size: 16px;
+}
+a {
+    color: #ccc;
+    font-size: 20x;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+nav ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+}
+nav {
+    overflow: hidden;
+}
+h1 {
+    font-size: 25px;
+    color: rgb(218, 65, 192);
+}
+p:first-child {
+    background-color: bisque;
+}
+p:nth-child(2) {
+    background-color: green;
+}
+p:last-child {
+    background-color: red;
+}
+p:nth-last-child(2) {
+    background-color: blue;
 }
